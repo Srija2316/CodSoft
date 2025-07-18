@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-family: 'Segoe UI', sans-serif;
+  overflow: hidden;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+}
+
+.sidebar {
+  width: 35%;
+  background-color: #1e2a38;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 40px 30px;
+  text-align: center;
+  gap: 40px; 
+
+}
+.profile img {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+  border: 4px solid #00c3ff;
+}
+
+.profile h1 {
+  font-size: 1.8rem;
+  margin-bottom: 5px;
+}
+
+.profile .role {
+  font-size: 1.1rem;
+  color: #ccc;
+  margin-bottom: 5px;
+}
+
+.profile p {
+  font-size: 0.95rem;
+  color: #bfc9d1;
+}
+
+.contact h3 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  color: #00c3ff;
+}
+
+.contact p {
+  font-size: 1rem;
+  margin: 6px 0;
+  color: #dce1e5;
+}
+
+.contact a {
+  display: inline-block;
+  margin-top: 10px;
+  font-size: 1rem;
+  color: #00c3ff;
+  text-decoration: none;
+}
+
+/* Main Content */
+.content {
+  width: 65%;
+  padding: 50px;
+  background-color: #f5f7fa;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow-y: auto;
+}
+
+.content h2 {
+  font-size: 1.6rem;
+  color: #1e2a38;
+  margin-bottom: 10px;
+}
+
+.content p {
+  font-size: 1.1rem;
+  color: #444;
+  line-height: 1.6;
+}
+
+.skills .tags {
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.skills .tags span {
+  background: #1e2a38;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 20px;
+  font-size: 0.95rem;
+}
+
+.projects ul {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 10px;
+}
+
+.projects li {
+  margin-bottom: 10px;
+  font-size: 1.05rem;
+  color: #333;
+}
+.contact i {
+  margin-right: 8px;
+  color: #00c3ff;
+}
